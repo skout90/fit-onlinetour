@@ -47,7 +47,7 @@ module.exports = {
     "no-unused-vars": process.env.NODE_ENV === 'production' ? 'error' : 'off',
     "no-return-assign": 'off',
     'no-trailing-spaces': 'off',
-    'space-before-function-paren': 'warn',
+    'space-before-function-paren': 'off',
 
     'import/first': 'off',
     'import/namespace': 'error',
